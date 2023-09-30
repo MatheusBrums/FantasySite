@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    background-image: url('https://i.ytimg.com/vi/RHx5fCSk9dE/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AGEB4AC0AWKAgwIABABGH8gSigoMA8=&rs=AOn4CLCiadZN-3xxc7KjAXjTB3KePZZuFQ');
+    background-size: cover;
+}
+#back{
+    background-color: rgba(0, 0, 0, 0.685);
+    height: 100vh;
+}
+#container{
+    position: relative;
+    background-color: rgb(0, 225, 255);
+    margin: auto;
+    width: 800px;
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.267);
+}
+header{
+    background-image: linear-gradient(rgb(0, 26, 255) 30%,rgb(0, 225, 255));
+    margin: -20px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#readerDiv{
+   
+}
+header h1{
+    padding: 30px 0px;
+    float: left;
+}
+header img{
+    float: right;
+}
+header p{
+    clear: left;
+}
+
+
+/*main */
+main{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 40px;
+}
+.dowloadDiv{
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.267);
+}
+.dowload{
+    margin: 20px 0px 0px 0px;
+    padding: 10px;
+    background-color: rgb(0, 225, 255);
+}
+.dowloadDiv a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+#container > p{
+    text-align: center;
+    margin: 10px;
+}
+#container > p > a{
+    
+}
+
+
+/* botao voltar*/
+.backPage{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.backPage a{
+    text-decoration: none;
+    color: black;
+}
+.backIcon{
+    position: relative;
+    bottom: -3px;
+    left: -3px;
+    font-size: 2em;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar conta</title>
+    <link rel="stylesheet" href="createAccount.css">
+</head>
+<body>
+    
+    <div id="back">
+        <div id="container">
+            <div class="backPage"><a href="index.html" rel="prev"><span class="backIcon">&#8678;</span>voltar</a></div>
+            <header>
+                <div id="headerDiv">
+                    <h1>Criar conta</h1>
+                    <img src="images/charmander.png" alt="charmander">
+                </div>
+                <p>Bem-vindo, treinador Pokémon. Antes de jogar PokeFantasy online, é necessário criar uma conta.</p>
+            </header>
+            <main>
+                <form>
+                    <fieldset>
+                        <legend>Conta</legend>
+                            <section class="fieldset">
+                                <label for="email">Email:</label>
+                                <input type="email" name="email" id="email" required>
+                                <label for="password">Senha:</label>
+                                <input type="password" name="password" id="password" required>
+                                <label for="passwordRepeat">Repitir Senha:</label>
+                                <input type="password" name="passwordRepeat" id="passwordRepeat" required>
+                            </section>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Personagem</legend>
+                        <section class="fieldset">
+                            <label for="name">Nome:</label>
+                            <input type="text" name="name" id="name" required>
+                            <label for="M">Sexo:</label>
+                            <div>
+                                <input type="radio" name="sex" id="M" required>
+                                <label for="M">Masculino</label>
+                                <input type="radio" name="sex" id="F" required>
+                                <label for="F">Feminino</label>
+                            </div>
+                        </section>
+                    </fieldset>
+                    <div id="buttons">
+                        <input type="submit" value="Criar conta">
+                        <p><a href="dowload.html" rel="next">Já tenho conta</a></p>
+                    </div>
+                    
+                </form>
+            </main>
+            <footer>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

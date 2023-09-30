@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'pokFont';
+    src: url(fonts/Sunday\ Grapes.otf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(images/background_one.jpg);
+    background-repeat: no-repeat;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.808);
+    height: 100px;
+    padding: 10px 50px 10px 50px;
+    display: flex;
+    justify-content: space-around;
+}
+div#logo{
+   
+}
+div#play{
+    display: flex;
+    color: white;
+    font-size: 50px;
+}
+.playButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 20px 0px 20px; 
+    font-family: 'pokFont';
+    text-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+.playButton a{
+    color: rgb(255, 255, 0);
+    text-decoration: none;
+}
+div#social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div#social img{
+    margin: 0px 5px 0px 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.445);
+}
+
+footer{
+    background-color: rgb(24, 24, 24);
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+footer a{
+    color: rgb(230, 230, 230);
+    text-decoration: none;
+    text-align: center;
+    line-height: 1.3em;
+}
+footer span{
+    color: white;
+    font-weight: bold;
+}

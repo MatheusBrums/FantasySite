@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    background-image: url('https://i.ytimg.com/vi/RHx5fCSk9dE/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AGEB4AC0AWKAgwIABABGH8gSigoMA8=&rs=AOn4CLCiadZN-3xxc7KjAXjTB3KePZZuFQ');
+    background-size: cover;
+}
+#back{
+    background-color: rgba(0, 0, 0, 0.685);
+    height: 100vh;
+}
+#container{
+    position: relative;
+    background-color: rgb(211, 211, 38);
+    margin: auto;
+    width: 800px;
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.267);
+}
+header{
+    background-image: linear-gradient(rgb(255, 140, 0) 50%,rgb(211, 211, 38));
+    margin: -20px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#readerDiv{
+   
+}
+header h1{
+    padding: 30px 0px;
+    float: left;
+}
+header img{
+    float: right;
+}
+header p{
+    clear: left;
+}
+main{
+
+}
+fieldset{
+    margin: 20px 0px;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.267);
+    
+}
+legend{
+    font-weight: bolder;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 4px;
+}
+.fieldset{
+    display: grid;
+    grid-template: auto auto auto/ 100px 300px ;
+    align-items: center;
+}
+label{
+    font-weight: bolder;
+}
+input{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.267);
+}
+input[type='radio']{
+    box-shadow: none;
+}
+#buttons{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#buttons input{
+    border: none;
+    text-align: center;
+    width: 400px;
+    margin: 10px auto;
+}
+#buttons input:hover{
+    background-color: white;
+    font-weight: bold;
+}
+
+/* botao voltar*/
+.backPage{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.backPage a{
+    text-decoration: none;
+    color: black;
+}
+.backIcon{
+    position: relative;
+    bottom: -3px;
+    left: -3px;
+    font-size: 2em;
+}
